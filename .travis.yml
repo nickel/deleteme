@@ -2,6 +2,6 @@ language: ruby
 services:
   - postgresql
 before_script:
-  - psql -c 'create database deleteme_test;' -U postgres
+  - HANAMI_ENV=test bundle exec hanami db prepare
 rvm:
  - 2.7.2
