@@ -1,0 +1,3 @@
+project=deleteme
+test=rspec
+template=erb
