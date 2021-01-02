@@ -4,4 +4,5 @@ services:
 before_script:
   - HANAMI_ENV=test bundle exec hanami db prepare
 rvm:
+ - 3.0.0
  - 2.7.2
